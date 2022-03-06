@@ -12,7 +12,7 @@ public class Synalogic {
     static final String ls = "\n";
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
-            System.out.println("Usage java ReadFile <filename>");
+            System.out.println("Usage java Synalogic <filename>");
             System.exit(0);
         }
         //Standard read file into a string with EOL characters
