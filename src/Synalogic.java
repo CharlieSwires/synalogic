@@ -37,7 +37,7 @@ public class Synalogic {
         input = input.replaceAll(ls, " ");
         //replace "
         //replace ,.()
-        input = input.replaceAll("[,.')(\\\"]", "");
+        input = input.replaceAll("[,.':;)(\\\"]", "");
         //System.out.println("Input="+input);
         return input;
     }
